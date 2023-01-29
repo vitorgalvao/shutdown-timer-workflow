@@ -948,7 +948,7 @@ Stop an ongoing timer with the Abort Shutdown Keyword (default: `shutdown abort`
 
 Configure the timer in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/). You can also set apps to close before shutdown, so they do not reopen on next login.
 
-To trigger an immediate shutdown or restart, use the respective the keywords (defaults: `shutdown`, `restart`).</string>
+To trigger an immediate shutdown or restart, use the respective keywords (defaults: `shutdown`, `restart`).</string>
 	<key>uidata</key>
 	<dict>
 		<key>0EE73639-B1AF-4B18-95DB-E20090044D09</key>
@@ -1302,10 +1302,8 @@ To trigger an immediate shutdown or restart, use the respective the keywords (de
 			<string>interval_seconds</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>2022.1</string>
+	<string>2023.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/shutdown-timer-workflow/</string>
 </dict>

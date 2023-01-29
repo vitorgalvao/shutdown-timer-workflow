@@ -2,7 +2,7 @@
 
 Turn off macOS on a timer
 
-<a href='https://alfred.app/workflows/vitor/shutdown-timer'>⤓ Install From the Alfred Gallery</a>
+<a href='https://alfred.app/workflows/vitor/shutdown-timer'>⤓ Install on the Alfred Gallery</a>
 
 ## Usage
 
@@ -16,4 +16,4 @@ Stop an ongoing timer with the Abort Shutdown Keyword (default: `shutdown abort`
 
 Configure the timer in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/). You can also set apps to close before shutdown, so they do not reopen on next login.
 
-To trigger an immediate shutdown or restart, use the respective the keywords (defaults: `shutdown`, `restart`).
+To trigger an immediate shutdown or restart, use the respective keywords (defaults: `shutdown`, `restart`).
