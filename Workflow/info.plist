@@ -938,17 +938,17 @@ touch "${abort_file}"</string>
 	<key>readme</key>
 	<string>## Usage
 
-Turn off your Mac on a timer via the Shutdown Keyword (default: `shutdown`). [Large Type](https://www.alfredapp.com/help/features/large-type/) will show periodically with the remaining time.
+Turn off your Mac on a timer via the `shutdown` keyword. [Large Type](https://www.alfredapp.com/help/features/large-type/) will show periodically with the remaining time.
 
 ![Shutdown options](images/about/shutdown.png)
 
-Stop an ongoing timer with the Abort Shutdown Keyword (default: `shutdown abort`).
+Stop an ongoing timer with `shutdown abort`.
 
 ![Abort shutdown](images/about/abort.png)
 
 Configure the timer in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/). You can also set apps to close before shutdown, so they do not reopen on next login.
 
-To trigger an immediate shutdown or restart, use the respective keywords (defaults: `shutdown`, `restart`).</string>
+To trigger an immediate shutdown or restart, use the `shutdown` or `restart` keywords.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0EE73639-B1AF-4B18-95DB-E20090044D09</key>
