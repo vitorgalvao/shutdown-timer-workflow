@@ -83,6 +83,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>45A5B985-958B-473C-9247-B7A94FFBF9D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F2C618DC-6A90-4473-B9E5-42280E1837A1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>45BC6562-0B8A-4748-9A1B-171DF281B58D</key>
 		<array>
 			<dict>
@@ -96,11 +109,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>467D9C0C-BB2B-4C1A-8426-2F689A8B2E96</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FCCCD99B-23D3-4750-8B33-79DC72E0A0FD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>50EDCB2D-FFEE-416F-8020-EEC775259D5A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>79BA3557-2AFE-4CDC-AA57-B3A0C3150CA1</string>
+				<string>45A5B985-958B-473C-9247-B7A94FFBF9D9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -126,19 +152,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>45BC6562-0B8A-4748-9A1B-171DF281B58D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>79BA3557-2AFE-4CDC-AA57-B3A0C3150CA1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F2C618DC-6A90-4473-B9E5-42280E1837A1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -178,19 +191,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>A4190D04-6CA3-4519-B37F-97D672FE16AB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>90F960E7-121C-4B61-8615-B07F88C288D7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F2C9E4B9-F3BE-45ED-8F14-F77167EDC517</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -280,7 +280,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D9BCF706-7AEB-4F2B-A688-3FC45A0A55A5</string>
+				<string>EF5AB541-8CC1-489A-B30D-0A5DE162EB09</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -293,7 +293,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>90F960E7-121C-4B61-8615-B07F88C288D7</string>
+				<string>467D9C0C-BB2B-4C1A-8426-2F689A8B2E96</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -327,23 +327,23 @@
 				<false/>
 			</dict>
 		</array>
-		<key>F2C9E4B9-F3BE-45ED-8F14-F77167EDC517</key>
+		<key>FCCCD99B-23D3-4750-8B33-79DC72E0A0FD</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>82D25657-0657-4718-9D31-0789F03E3434</string>
+				<string>C1AD4DAD-CC10-44E0-9A81-9E72156369C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>sourceoutputuid</key>
-				<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
+				<string>fileexists</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>F6320248-85C5-435A-B0F5-EA210C89BDC0</string>
+				<string>82D25657-0657-4718-9D31-0789F03E3434</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -491,94 +491,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alignment</key>
-				<integer>0</integer>
-				<key>backgroundcolor</key>
-				<string></string>
-				<key>fadespeed</key>
-				<integer>0</integer>
-				<key>fillmode</key>
-				<integer>0</integer>
-				<key>font</key>
-				<string></string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>largetypetext</key>
-				<string>{query}</string>
-				<key>textcolor</key>
-				<string></string>
-				<key>wrapat</key>
-				<integer>50</integer>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
+			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
-			<string>82D25657-0657-4718-9D31-0789F03E3434</string>
+			<string>C1AD4DAD-CC10-44E0-9A81-9E72156369C7</string>
 			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>command</key>
-				<integer>8</integer>
-				<key>confirm</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemcommand</string>
-			<key>uid</key>
-			<string>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>readonly remaining="$(bc &lt;&lt;&lt; "${1} - ${interval_seconds}")"
-[[ "${remaining}" -le 0 ]] &amp;&amp; echo -n 'shutdown' || echo -n "${remaining}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>79BA3557-2AFE-4CDC-AA57-B3A0C3150CA1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>readonly abort_file='/tmp/shutdowntimer_abort'
-[[ -f "${abort_file}" ]] &amp;&amp; echo -n 'abort' || echo -n "${1}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>90F960E7-121C-4B61-8615-B07F88C288D7</string>
-			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -598,6 +521,70 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>fileutivariablename</key>
+				<string></string>
+				<key>outputfileuti</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.file</string>
+			<key>uid</key>
+			<string>FCCCD99B-23D3-4750-8B33-79DC72E0A0FD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{const:alfred_workflow_cache}/abort_shutdown</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>remaining_seconds</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>467D9C0C-BB2B-4C1A-8426-2F689A8B2E96</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{var:remaining_seconds}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>82D25657-0657-4718-9D31-0789F03E3434</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -606,9 +593,9 @@
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
-						<integer>1</integer>
+						<integer>2</integer>
 						<key>matchstring</key>
-						<string>shutdown</string>
+						<string>0</string>
 						<key>outputlabel</key>
 						<string>Continue timer</string>
 						<key>uid</key>
@@ -630,38 +617,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>1</integer>
-						<key>matchstring</key>
-						<string>abort</string>
-						<key>outputlabel</key>
-						<string>Continue timer</string>
-						<key>uid</key>
-						<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Abort</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>F2C9E4B9-F3BE-45ED-8F14-F77167EDC517</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>seconds</key>
 				<string>{var:interval_seconds}</string>
 			</dict>
@@ -675,24 +630,28 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>readonly abort_file='/tmp/shutdowntimer_abort'
-rm "${abort_file}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
+				<key>expression</key>
+				<string>{var:remaining_seconds} - {var:interval_seconds}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.expression</string>
 			<key>uid</key>
-			<string>F6320248-85C5-435A-B0F5-EA210C89BDC0</string>
+			<string>45A5B985-958B-473C-9247-B7A94FFBF9D9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>command</key>
+				<integer>8</integer>
+				<key>confirm</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemcommand</string>
+			<key>uid</key>
+			<string>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -801,26 +760,29 @@ rm "${abort_file}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>adduuid</key>
 				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>readonly abort_file='/tmp/shutdowntimer_abort'
-touch "${abort_file}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>abort_shutdown</string>
+				<key>filetext</key>
 				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>-1</integer>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>1</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.output.writefile</string>
 			<key>uid</key>
-			<string>D9BCF706-7AEB-4F2B-A688-3FC45A0A55A5</string>
+			<string>EF5AB541-8CC1-489A-B30D-0A5DE162EB09</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>type</key>
@@ -986,6 +948,15 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>800</real>
 		</dict>
+		<key>45A5B985-958B-473C-9247-B7A94FFBF9D9</key>
+		<dict>
+			<key>note</key>
+			<string>Subtract to get remaining time</string>
+			<key>xpos</key>
+			<real>910</real>
+			<key>ypos</key>
+			<real>420</real>
+		</dict>
 		<key>45BC6562-0B8A-4748-9A1B-171DF281B58D</key>
 		<dict>
 			<key>xpos</key>
@@ -993,12 +964,23 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>165</real>
 		</dict>
-		<key>50EDCB2D-FFEE-416F-8020-EEC775259D5A</key>
+		<key>467D9C0C-BB2B-4C1A-8426-2F689A8B2E96</key>
 		<dict>
+			<key>note</key>
+			<string>Send path to abort file (to check for existence) and remaining time</string>
 			<key>xpos</key>
-			<real>775</real>
+			<real>250</real>
 			<key>ypos</key>
 			<real>265</real>
+		</dict>
+		<key>50EDCB2D-FFEE-416F-8020-EEC775259D5A</key>
+		<dict>
+			<key>note</key>
+			<string>Pause until next check</string>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>420</real>
 		</dict>
 		<key>526137B8-8E71-4C07-9360-7C54BCDC4B34</key>
 		<dict>
@@ -1014,13 +996,6 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>800</real>
 		</dict>
-		<key>79BA3557-2AFE-4CDC-AA57-B3A0C3150CA1</key>
-		<dict>
-			<key>xpos</key>
-			<real>880</real>
-			<key>ypos</key>
-			<real>235</real>
-		</dict>
 		<key>7B590FF4-BCAE-4F45-98D2-B8D4E094DBB0</key>
 		<dict>
 			<key>xpos</key>
@@ -1031,9 +1006,9 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 		<key>82D25657-0657-4718-9D31-0789F03E3434</key>
 		<dict>
 			<key>xpos</key>
-			<real>600</real>
+			<real>585</real>
 			<key>ypos</key>
-			<real>235</real>
+			<real>390</real>
 		</dict>
 		<key>8F66ED5C-9061-4D47-AB6F-7D3F64B42F66</key>
 		<dict>
@@ -1041,15 +1016,6 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<real>40</real>
 			<key>ypos</key>
 			<real>800</real>
-		</dict>
-		<key>90F960E7-121C-4B61-8615-B07F88C288D7</key>
-		<dict>
-			<key>note</key>
-			<string>Determine if should continue running</string>
-			<key>xpos</key>
-			<real>210</real>
-			<key>ypos</key>
-			<real>235</real>
 		</dict>
 		<key>9AD48F6A-99F8-48C8-8546-A6E6BE413638</key>
 		<dict>
@@ -1079,7 +1045,7 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>xpos</key>
 			<real>600</real>
 			<key>ypos</key>
-			<real>120</real>
+			<real>70</real>
 		</dict>
 		<key>B668E3D6-CDC8-4B39-BFCD-6BA23FC42E37</key>
 		<dict>
@@ -1097,6 +1063,15 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>665</real>
 		</dict>
+		<key>C1AD4DAD-CC10-44E0-9A81-9E72156369C7</key>
+		<dict>
+			<key>note</key>
+			<string>After shutdown is aborted, delete the file</string>
+			<key>xpos</key>
+			<real>585</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
 		<key>D4B4C0F3-2CE5-4EBF-8791-99A54D127571</key>
 		<dict>
 			<key>xpos</key>
@@ -1104,47 +1079,44 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>235</real>
 		</dict>
-		<key>D9BCF706-7AEB-4F2B-A688-3FC45A0A55A5</key>
+		<key>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</key>
 		<dict>
+			<key>xpos</key>
+			<real>1190</real>
+			<key>ypos</key>
+			<real>530</real>
+		</dict>
+		<key>EF5AB541-8CC1-489A-B30D-0A5DE162EB09</key>
+		<dict>
+			<key>note</key>
+			<string>Create file to abort shutdown</string>
 			<key>xpos</key>
 			<real>210</real>
 			<key>ypos</key>
 			<real>665</real>
 		</dict>
-		<key>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</key>
-		<dict>
-			<key>xpos</key>
-			<real>1295</real>
-			<key>ypos</key>
-			<real>235</real>
-		</dict>
 		<key>F2C618DC-6A90-4473-B9E5-42280E1837A1</key>
 		<dict>
 			<key>xpos</key>
-			<real>1060</real>
+			<real>1035</real>
 			<key>ypos</key>
-			<real>255</real>
-		</dict>
-		<key>F2C9E4B9-F3BE-45ED-8F14-F77167EDC517</key>
-		<dict>
-			<key>xpos</key>
-			<real>400</real>
-			<key>ypos</key>
-			<real>255</real>
+			<real>410</real>
 		</dict>
 		<key>F536343E-1CFE-44F9-A13C-4F37AB921A50</key>
 		<dict>
 			<key>xpos</key>
-			<real>1295</real>
+			<real>1190</real>
 			<key>ypos</key>
 			<real>40</real>
 		</dict>
-		<key>F6320248-85C5-435A-B0F5-EA210C89BDC0</key>
+		<key>FCCCD99B-23D3-4750-8B33-79DC72E0A0FD</key>
 		<dict>
+			<key>note</key>
+			<string>Determine if should continue running</string>
 			<key>xpos</key>
-			<real>600</real>
+			<real>425</real>
 			<key>ypos</key>
-			<real>380</real>
+			<real>255</real>
 		</dict>
 		<key>FF5F7327-EC53-4722-BB26-871E82F84106</key>
 		<dict>
@@ -1302,6 +1274,8 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<string>interval_seconds</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>2023.2</string>
 	<key>webaddress</key>
