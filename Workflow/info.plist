@@ -444,7 +444,7 @@
 						<key>matchmode</key>
 						<integer>5</integer>
 						<key>matchstring</key>
-						<string>true</string>
+						<string></string>
 						<key>outputlabel</key>
 						<string>Close apps</string>
 						<key>uid</key>
@@ -644,21 +644,6 @@
 			<key>config</key>
 			<dict>
 				<key>command</key>
-				<integer>8</integer>
-				<key>confirm</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemcommand</string>
-			<key>uid</key>
-			<string>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>command</key>
 				<integer>9</integer>
 				<key>confirm</key>
 				<false/>
@@ -667,6 +652,21 @@
 			<string>alfred.workflow.action.systemcommand</string>
 			<key>uid</key>
 			<string>FF5F7327-EC53-4722-BB26-871E82F84106</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>command</key>
+				<integer>8</integer>
+				<key>confirm</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemcommand</string>
+			<key>uid</key>
+			<string>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -704,7 +704,7 @@
 						<key>matchmode</key>
 						<integer>5</integer>
 						<key>matchstring</key>
-						<string>true</string>
+						<string></string>
 						<key>outputlabel</key>
 						<string>Close apps</string>
 						<key>uid</key>
@@ -856,7 +856,7 @@
 						<key>matchmode</key>
 						<integer>5</integer>
 						<key>matchstring</key>
-						<string>true</string>
+						<string></string>
 						<key>outputlabel</key>
 						<string>Close apps</string>
 						<key>uid</key>
@@ -1234,13 +1234,17 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>default</key>
-				<string>60</string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<false/>
-				<key>trim</key>
+				<key>defaultvalue</key>
+				<integer>60</integer>
+				<key>markercount</key>
+				<integer>21</integer>
+				<key>maxvalue</key>
+				<integer>300</integer>
+				<key>minvalue</key>
+				<integer>1</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
 				<true/>
 			</dict>
 			<key>description</key>
@@ -1248,34 +1252,36 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>label</key>
 			<string>Shutdown Seconds</string>
 			<key>type</key>
-			<string>textfield</string>
+			<string>slider</string>
 			<key>variable</key>
 			<string>shutdown_seconds</string>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>default</key>
-				<string>10</string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<false/>
-				<key>trim</key>
+				<key>defaultvalue</key>
+				<integer>10</integer>
+				<key>markercount</key>
+				<integer>15</integer>
+				<key>maxvalue</key>
+				<integer>15</integer>
+				<key>minvalue</key>
+				<integer>1</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>How often to show Large Type with remaining time before timed shutdown.</string>
+			<string>How often to show Large Type with remaining time.</string>
 			<key>label</key>
 			<string>Interval Seconds</string>
 			<key>type</key>
-			<string>textfield</string>
+			<string>slider</string>
 			<key>variable</key>
 			<string>interval_seconds</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>2023.3</string>
 	<key>webaddress</key>
