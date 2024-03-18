@@ -1283,7 +1283,7 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.3</string>
+	<string>2024.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/shutdown-timer-workflow/</string>
 </dict>
