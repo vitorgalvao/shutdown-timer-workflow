@@ -10,71 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1129B193-5E05-4CC6-9DAD-E7FCE3D0FF6B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>1129B193-5E05-4CC6-9DAD-E7FCE3D0FF6B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>FF5F7327-EC53-4722-BB26-871E82F84106</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>7B590FF4-BCAE-4F45-98D2-B8D4E094DBB0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>115C68F5-0799-46FD-9E96-96985B766A3A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A88381FF-0984-457B-9C13-35C90117D28B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>30320EDF-8B0E-431F-8EB3-7C2B7FEF0DBB</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7110B65E-4EA0-45AE-924F-60C155050E15</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>385DA26B-B14C-460C-B11E-FD313BEC6F2E</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B668E3D6-CDC8-4B39-BFCD-6BA23FC42E37</string>
+				<string>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -88,19 +24,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F2C618DC-6A90-4473-B9E5-42280E1837A1</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>45BC6562-0B8A-4748-9A1B-171DF281B58D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A88381FF-0984-457B-9C13-35C90117D28B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -135,44 +58,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>526137B8-8E71-4C07-9360-7C54BCDC4B34</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>115C68F5-0799-46FD-9E96-96985B766A3A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>45BC6562-0B8A-4748-9A1B-171DF281B58D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>7B590FF4-BCAE-4F45-98D2-B8D4E094DBB0</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>82D25657-0657-4718-9D31-0789F03E3434</key>
 		<array>
 			<dict>
@@ -190,7 +75,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A4190D04-6CA3-4519-B37F-97D672FE16AB</string>
+				<string>7110B65E-4EA0-45AE-924F-60C155050E15</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -203,45 +88,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>526137B8-8E71-4C07-9360-7C54BCDC4B34</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>A39CC42A-BAFC-4D20-9A86-1F7522220BAF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>A4190D04-6CA3-4519-B37F-97D672FE16AB</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>385DA26B-B14C-460C-B11E-FD313BEC6F2E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>30320EDF-8B0E-431F-8EB3-7C2B7FEF0DBB</string>
+				<string>A88381FF-0984-457B-9C13-35C90117D28B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -255,19 +102,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F536343E-1CFE-44F9-A13C-4F37AB921A50</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>B668E3D6-CDC8-4B39-BFCD-6BA23FC42E37</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7110B65E-4EA0-45AE-924F-60C155050E15</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -352,19 +186,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>FF5F7327-EC53-4722-BB26-871E82F84106</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A39CC42A-BAFC-4D20-9A86-1F7522220BAF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Vítor Galvão</string>
@@ -376,21 +197,6 @@
 	<string>Shutdown Timer</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>command</key>
-				<integer>9</integer>
-				<key>confirm</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemcommand</string>
-			<key>uid</key>
-			<string>115C68F5-0799-46FD-9E96-96985B766A3A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -434,38 +240,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:close_apps}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Close apps</string>
-						<key>uid</key>
-						<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Do not close apps</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>526137B8-8E71-4C07-9360-7C54BCDC4B34</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>{var:shutdown_seconds}</string>
 				<key>passthroughargument</key>
@@ -481,18 +255,13 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>45BC6562-0B8A-4748-9A1B-171DF281B58D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>config</key>
 			<dict>
 				<key>tasksettings</key>
-				<dict/>
+				<dict>
+					<key>use_finder</key>
+					<false/>
+				</dict>
 				<key>taskuid</key>
 				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
 			</dict>
@@ -537,7 +306,7 @@
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{const:alfred_workflow_cache}/abort_shutdown</string>
+				<string>/tmp/{const:alfred_workflow_bundleid}.abortshutdown</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -644,21 +413,6 @@
 			<key>config</key>
 			<dict>
 				<key>command</key>
-				<integer>9</integer>
-				<key>confirm</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemcommand</string>
-			<key>uid</key>
-			<string>FF5F7327-EC53-4722-BB26-871E82F84106</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>command</key>
 				<integer>8</integer>
 				<key>confirm</key>
 				<false/>
@@ -694,45 +448,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:close_apps}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Close apps</string>
-						<key>uid</key>
-						<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Do not close apps</string>
-				<key>hideelse</key>
+				<key>adduuid</key>
 				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>/tmp/{const:alfred_workflow_bundleid}.abortshutdown</string>
+				<key>filetext</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>-1</integer>
+				<key>type</key>
+				<integer>1</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.output.writefile</string>
 			<key>uid</key>
-			<string>1129B193-5E05-4CC6-9DAD-E7FCE3D0FF6B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>5</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>A39CC42A-BAFC-4D20-9A86-1F7522220BAF</string>
+			<string>EF5AB541-8CC1-489A-B30D-0A5DE162EB09</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -754,41 +490,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>BEA182D4-C580-4423-BEAF-0632F6C0427C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>adduuid</key>
-				<false/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<true/>
-				<key>filename</key>
-				<string>abort_shutdown</string>
-				<key>filetext</key>
-				<string></string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>relativepathmode</key>
-				<integer>-1</integer>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>EF5AB541-8CC1-489A-B30D-0A5DE162EB09</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>7B590FF4-BCAE-4F45-98D2-B8D4E094DBB0</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -817,21 +518,6 @@
 			<key>config</key>
 			<dict>
 				<key>command</key>
-				<integer>9</integer>
-				<key>confirm</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemcommand</string>
-			<key>uid</key>
-			<string>385DA26B-B14C-460C-B11E-FD313BEC6F2E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>command</key>
 				<integer>7</integer>
 				<key>confirm</key>
 				<false/>
@@ -842,59 +528,6 @@
 			<string>7110B65E-4EA0-45AE-924F-60C155050E15</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:close_apps}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Close apps</string>
-						<key>uid</key>
-						<string>B9B55F96-41C4-4AA7-AB0C-65BF3F3E48D8</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Do not close apps</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>A4190D04-6CA3-4519-B37F-97D672FE16AB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>5</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>B668E3D6-CDC8-4B39-BFCD-6BA23FC42E37</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>30320EDF-8B0E-431F-8EB3-7C2B7FEF0DBB</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -908,7 +541,7 @@ Stop an ongoing timer with `shutdown abort`.
 
 ![Abort shutdown](images/about/abort.png)
 
-Configure the timer in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/). You can also set apps to close before shutdown, so they do not reopen on next login.
+Configure the timer in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 
 To trigger an immediate shutdown or restart, use the `shutdown` or `restart` keywords.</string>
 	<key>uidata</key>
@@ -920,56 +553,21 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>530</real>
 		</dict>
-		<key>1129B193-5E05-4CC6-9DAD-E7FCE3D0FF6B</key>
-		<dict>
-			<key>xpos</key>
-			<real>210</real>
-			<key>ypos</key>
-			<real>550</real>
-		</dict>
-		<key>115C68F5-0799-46FD-9E96-96985B766A3A</key>
-		<dict>
-			<key>xpos</key>
-			<real>400</real>
-			<key>ypos</key>
-			<real>40</real>
-		</dict>
-		<key>30320EDF-8B0E-431F-8EB3-7C2B7FEF0DBB</key>
-		<dict>
-			<key>xpos</key>
-			<real>440</real>
-			<key>ypos</key>
-			<real>940</real>
-		</dict>
-		<key>385DA26B-B14C-460C-B11E-FD313BEC6F2E</key>
-		<dict>
-			<key>xpos</key>
-			<real>400</real>
-			<key>ypos</key>
-			<real>800</real>
-		</dict>
 		<key>45A5B985-958B-473C-9247-B7A94FFBF9D9</key>
 		<dict>
 			<key>note</key>
 			<string>Subtract to get remaining time</string>
 			<key>xpos</key>
-			<real>910</real>
+			<real>820</real>
 			<key>ypos</key>
 			<real>420</real>
-		</dict>
-		<key>45BC6562-0B8A-4748-9A1B-171DF281B58D</key>
-		<dict>
-			<key>xpos</key>
-			<real>440</real>
-			<key>ypos</key>
-			<real>165</real>
 		</dict>
 		<key>467D9C0C-BB2B-4C1A-8426-2F689A8B2E96</key>
 		<dict>
 			<key>note</key>
 			<string>Send path to abort file (to check for existence) and remaining time</string>
 			<key>xpos</key>
-			<real>250</real>
+			<real>225</real>
 			<key>ypos</key>
 			<real>265</real>
 		</dict>
@@ -978,35 +576,21 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>note</key>
 			<string>Pause until next check</string>
 			<key>xpos</key>
-			<real>770</real>
+			<real>680</real>
 			<key>ypos</key>
 			<real>420</real>
-		</dict>
-		<key>526137B8-8E71-4C07-9360-7C54BCDC4B34</key>
-		<dict>
-			<key>xpos</key>
-			<real>210</real>
-			<key>ypos</key>
-			<real>60</real>
 		</dict>
 		<key>7110B65E-4EA0-45AE-924F-60C155050E15</key>
 		<dict>
 			<key>xpos</key>
-			<real>880</real>
+			<real>210</real>
 			<key>ypos</key>
-			<real>800</real>
-		</dict>
-		<key>7B590FF4-BCAE-4F45-98D2-B8D4E094DBB0</key>
-		<dict>
-			<key>xpos</key>
-			<real>440</real>
-			<key>ypos</key>
-			<real>670</real>
+			<real>830</real>
 		</dict>
 		<key>82D25657-0657-4718-9D31-0789F03E3434</key>
 		<dict>
 			<key>xpos</key>
-			<real>585</real>
+			<real>495</real>
 			<key>ypos</key>
 			<real>390</real>
 		</dict>
@@ -1015,7 +599,7 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>xpos</key>
 			<real>40</real>
 			<key>ypos</key>
-			<real>800</real>
+			<real>830</real>
 		</dict>
 		<key>9AD48F6A-99F8-48C8-8546-A6E6BE413638</key>
 		<dict>
@@ -1024,37 +608,14 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>40</real>
 		</dict>
-		<key>A39CC42A-BAFC-4D20-9A86-1F7522220BAF</key>
-		<dict>
-			<key>note</key>
-			<string>Allow apps the time to close</string>
-			<key>xpos</key>
-			<real>600</real>
-			<key>ypos</key>
-			<real>560</real>
-		</dict>
-		<key>A4190D04-6CA3-4519-B37F-97D672FE16AB</key>
-		<dict>
-			<key>xpos</key>
-			<real>210</real>
-			<key>ypos</key>
-			<real>820</real>
-		</dict>
 		<key>A88381FF-0984-457B-9C13-35C90117D28B</key>
 		<dict>
+			<key>note</key>
+			<string>Send configured number of seconds</string>
 			<key>xpos</key>
-			<real>600</real>
+			<real>225</real>
 			<key>ypos</key>
 			<real>70</real>
-		</dict>
-		<key>B668E3D6-CDC8-4B39-BFCD-6BA23FC42E37</key>
-		<dict>
-			<key>note</key>
-			<string>Allow apps the time to close</string>
-			<key>xpos</key>
-			<real>600</real>
-			<key>ypos</key>
-			<real>830</real>
 		</dict>
 		<key>BEA182D4-C580-4423-BEAF-0632F6C0427C</key>
 		<dict>
@@ -1068,7 +629,7 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>note</key>
 			<string>After shutdown is aborted, delete the file</string>
 			<key>xpos</key>
-			<real>585</real>
+			<real>495</real>
 			<key>ypos</key>
 			<real>220</real>
 		</dict>
@@ -1082,7 +643,7 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 		<key>DB3276E8-F448-4C50-B2ED-7FF6A657DE1E</key>
 		<dict>
 			<key>xpos</key>
-			<real>1190</real>
+			<real>1065</real>
 			<key>ypos</key>
 			<real>530</real>
 		</dict>
@@ -1098,14 +659,14 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 		<key>F2C618DC-6A90-4473-B9E5-42280E1837A1</key>
 		<dict>
 			<key>xpos</key>
-			<real>1035</real>
+			<real>915</real>
 			<key>ypos</key>
 			<real>410</real>
 		</dict>
 		<key>F536343E-1CFE-44F9-A13C-4F37AB921A50</key>
 		<dict>
 			<key>xpos</key>
-			<real>1190</real>
+			<real>1065</real>
 			<key>ypos</key>
 			<real>40</real>
 		</dict>
@@ -1114,16 +675,9 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>note</key>
 			<string>Determine if should continue running</string>
 			<key>xpos</key>
-			<real>425</real>
+			<real>340</real>
 			<key>ypos</key>
 			<real>255</real>
-		</dict>
-		<key>FF5F7327-EC53-4722-BB26-871E82F84106</key>
-		<dict>
-			<key>xpos</key>
-			<real>400</real>
-			<key>ypos</key>
-			<real>530</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1211,25 +765,6 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<string>textfield</string>
 			<key>variable</key>
 			<string>immediate_restart_keyword</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Quit apps so they do not reopen on boot</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Close Apps</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>close_apps</string>
 		</dict>
 		<dict>
 			<key>config</key>
