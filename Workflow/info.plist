@@ -58,6 +58,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7777E463-71D5-4532-8841-D719905EB70A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F536343E-1CFE-44F9-A13C-4F37AB921A50</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>82D25657-0657-4718-9D31-0789F03E3434</key>
 		<array>
 			<dict>
@@ -88,20 +101,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A88381FF-0984-457B-9C13-35C90117D28B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>A88381FF-0984-457B-9C13-35C90117D28B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F536343E-1CFE-44F9-A13C-4F37AB921A50</string>
+				<string>7777E463-71D5-4532-8841-D719905EB70A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -200,6 +200,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:timed_shutdown_keyword}</string>
+				<key>subtext</key>
+				<string>Turn off on a timer</string>
+				<key>text</key>
+				<string>Timed Shutdown</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9AD48F6A-99F8-48C8-8546-A6E6BE413638</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>externaltriggerid</key>
 				<string>shutdow_timer</string>
 				<key>passinputasargument</key>
@@ -219,38 +240,13 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:timed_shutdown_keyword}</string>
-				<key>subtext</key>
-				<string>Turn off in {var:shutdown_seconds} seconds</string>
-				<key>text</key>
-				<string>Timed Shutdown</string>
-				<key>withspace</key>
-				<false/>
+				<key>expression</key>
+				<string>{var:shutdown_timer} * {var:timer_multiplier}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.expression</string>
 			<key>uid</key>
-			<string>9AD48F6A-99F8-48C8-8546-A6E6BE413638</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{var:shutdown_seconds}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>A88381FF-0984-457B-9C13-35C90117D28B</string>
+			<string>7777E463-71D5-4532-8841-D719905EB70A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -386,6 +382,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>expression</key>
+				<string>{var:remaining_seconds} - {var:interval_seconds}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.expression</string>
+			<key>uid</key>
+			<string>45A5B985-958B-473C-9247-B7A94FFBF9D9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>seconds</key>
 				<string>{var:interval_seconds}</string>
 			</dict>
@@ -399,13 +408,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>expression</key>
-				<string>{var:remaining_seconds} - {var:interval_seconds}</string>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:immediate_shutdown_keyword}</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Immediate Shutdown</string>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.expression</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>45A5B985-958B-473C-9247-B7A94FFBF9D9</string>
+			<string>0EE73639-B1AF-4B18-95DB-E20090044D09</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -430,18 +447,18 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>{var:immediate_shutdown_keyword}</string>
+				<string>{var:abort_shutdown_keyword}</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Immediate Shutdown</string>
+				<string>Abort Timed Shutdown</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>0EE73639-B1AF-4B18-95DB-E20090044D09</string>
+			<string>BEA182D4-C580-4423-BEAF-0632F6C0427C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -469,27 +486,6 @@
 			<string>alfred.workflow.output.writefile</string>
 			<key>uid</key>
 			<string>EF5AB541-8CC1-489A-B30D-0A5DE162EB09</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:abort_shutdown_keyword}</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Abort Timed Shutdown</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>BEA182D4-C580-4423-BEAF-0632F6C0427C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -587,6 +583,15 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<key>ypos</key>
 			<real>830</real>
 		</dict>
+		<key>7777E463-71D5-4532-8841-D719905EB70A</key>
+		<dict>
+			<key>note</key>
+			<string>Send configured number of seconds or minutes</string>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
 		<key>82D25657-0657-4718-9D31-0789F03E3434</key>
 		<dict>
 			<key>xpos</key>
@@ -607,15 +612,6 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<real>40</real>
 			<key>ypos</key>
 			<real>40</real>
-		</dict>
-		<key>A88381FF-0984-457B-9C13-35C90117D28B</key>
-		<dict>
-			<key>note</key>
-			<string>Send configured number of seconds</string>
-			<key>xpos</key>
-			<real>225</real>
-			<key>ypos</key>
-			<real>70</real>
 		</dict>
 		<key>BEA182D4-C580-4423-BEAF-0632F6C0427C</key>
 		<dict>
@@ -783,13 +779,39 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>How long to wait on a timed shutdown.</string>
+			<string></string>
 			<key>label</key>
-			<string>Shutdown Seconds</string>
+			<string>Shutdown Timer</string>
 			<key>type</key>
 			<string>slider</string>
 			<key>variable</key>
-			<string>shutdown_seconds</string>
+			<string>shutdown_timer</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>1</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Seconds</string>
+						<string>1</string>
+					</array>
+					<array>
+						<string>Minutes</string>
+						<string>60</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>How long to wait on a timed shutdown.</string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>timer_multiplier</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -817,6 +839,8 @@ To trigger an immediate shutdown or restart, use the `shutdown` or `restart` key
 			<string>interval_seconds</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>2025.1</string>
 	<key>webaddress</key>
